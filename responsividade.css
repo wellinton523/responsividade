@@ -1,0 +1,27 @@
+span,
+h3,
+p,
+h1,
+h2 {
+	color: white;
+	margin: 2em;
+}
+
+.titulo-secao h2 {
+	text-align: center;
+}
+
+header {
+	justify-self: center;
+	background-color: black;
+	border-radius: 5px;
+}
+
+main {
+	justify-self: center;
+	background-color: black;
+	margin: 1em;
+	max-width: 100em;
+	border-radius: 5px;
+	margin-bottom: 3em;
+}
