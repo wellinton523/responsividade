@@ -20,8 +20,18 @@ header {
 main {
 	justify-self: center;
 	background-color: black;
-	margin: 1em;
+	margin: 2em;
 	max-width: 100em;
 	border-radius: 5px;
 	margin-bottom: 3em;
+}
+
+img {
+	justify-self: center;
+	border-radius: 15px;
+	margin: 3em;
+}
+
+.adaptacao {
+	display: flex;
 }
