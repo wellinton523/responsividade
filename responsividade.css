@@ -35,3 +35,43 @@ img {
 .adaptacao {
 	display: flex;
 }
+
+.seo {
+	display: flex;
+}
+
+.seo p {
+	order: 1;
+}
+
+.gabe {
+	max-width: 40em;
+	max-height: 10em;
+	scale: 170%;
+}
+
+@media (max-width: 1300px) {
+	.adaptacao {
+		display: flex;
+		flex-direction: column;
+	}
+
+	article {
+		justify-content: center;
+	}
+
+	.seo {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.seo p {
+		order: 0;
+	}
+
+	.gabe {
+		max-width: 400em;
+		max-height: 100em;
+		scale: 100%;
+	}
+}
